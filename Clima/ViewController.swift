@@ -10,19 +10,16 @@ import UIKit
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
-        super.viewDidLoad()
-    afasfasfas
-        afads
-        fas
-        PRIdFAST16fas
-        fas
+        super.viewDidLoad()asf
+        dsfaas
+        MTLFunctionStitchingAttributeAlwaysInlinefas
         f
         asf
         as
-        fas
+        NSFastEnumerationf
+        as
         fas
         f
-        
         // Do any additional setup after loading the view.
     }
 
