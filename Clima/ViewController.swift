@@ -11,6 +11,18 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+    afasfasfas
+        afads
+        fas
+        PRIdFAST16fas
+        fas
+        f
+        asf
+        as
+        fas
+        fas
+        f
+        
         // Do any additional setup after loading the view.
     }
 
