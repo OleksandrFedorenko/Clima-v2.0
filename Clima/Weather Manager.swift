@@ -15,4 +15,11 @@ struct WeatherManager {
         let urlString = "\(weatherURL)&q=\(cityName)"
         print(urlString)
     }
+    
+    func performRequest(urlString: String) {
+//        1.Create URL
+//        2.Create a URL UIDragSession
+//        3.Give a session a Task
+//        4.Start a task
+    }
 }
