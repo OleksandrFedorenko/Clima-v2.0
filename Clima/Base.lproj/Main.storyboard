@@ -38,7 +38,7 @@
                                                 <rect key="frame" x="59.666666666666671" y="8" width="237.66666666666663" height="40"/>
                                                 <color key="backgroundColor" systemColor="systemFillColor"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
-                                                <textInputTraits key="textInputTraits"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="words" returnKeyType="go"/>
                                             </textField>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jqf-un-k1y">
                                                 <rect key="frame" x="297.33333333333331" y="0.0" width="65.666666666666686" height="55.666666666666664"/>
@@ -48,6 +48,9 @@
                                                     <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="35" scale="default" weight="regular"/>
                                                     <color key="baseForegroundColor" name="weatherColor"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="searchPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="F4W-tF-k8B"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -108,6 +111,9 @@
                             <constraint firstItem="vjW-Zd-LKs" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="zPr-ZB-7ZO"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="searchTextView" destination="fUK-I4-xpH" id="WgY-wj-z8U"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
