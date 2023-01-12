@@ -22,4 +22,5 @@ struct WeatherManager {
 //        3.Give a session a Task
 //        4.Start a task
     }
+    //handle function
 }
